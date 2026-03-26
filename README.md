@@ -29,3 +29,29 @@ Ongoing project. Research paper submitted to IEEE RMKMATE 2026 (under review).
 
 ## Author
 Chunduri Sushen
+# Physics-Informed Neural Network for Flood Prediction
+
+This project implements a Physics-Informed Neural Network (PINN) to improve flood prediction by integrating hydrological constraints into deep learning models.
+
+## Key Features
+
+* Dual-output neural network (classification + water depth)
+* Physics-based loss function using shallow water equations
+* Ablation study on physics weight (λ)
+* Significant reduction in physics violations
+
+## Results
+
+* Accuracy: 79.07%
+* F1 Score: 0.715
+* Physics residual reduced by 99.9%
+
+## Technologies Used
+
+* Python
+* TensorFlow / Keras
+* NumPy, Matplotlib
+
+## Status
+
+This work is currently under conference review.
